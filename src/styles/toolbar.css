@@ -1,0 +1,76 @@
+
+.toolbar {
+    height: 40px;
+    background-color: #e4ace9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 4px 5px gray;
+    z-index: 999;
+  }
+  .toolbar__btn {
+    height: 25px;
+    width: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-size: cover;
+    margin-left: 10px;
+  }
+  .toolbar .brush {
+    background: url('../assets/img/brush.png') no-repeat center center;
+  }
+  .toolbar .rect {
+    background: url('../assets/img/rect.png') no-repeat center center;
+  }
+  .toolbar .circle {
+    background: url('../assets/img/circle.png') no-repeat center center;
+  }
+  .toolbar .eraser {
+    background: url('../assets/img/eraser.png') no-repeat center center;
+  }
+  .toolbar .line {
+    background: url('../assets/img/line.png') no-repeat center center;
+  }
+  .toolbar .undo {
+    margin-left: 50px;
+    background: url('../assets/img/undo.png') no-repeat center center;
+  }
+  .toolbar .redo {
+    background: url('../assets/img/redo.png') no-repeat center center;
+  }
+  .toolbar .save {
+    background: url('../assets/img/save.png') no-repeat center center;
+    margin-right: 10px;
+  }
+  .toolbar .pallete {
+    margin: 0 10px;
+  }
+  
+
+.setting-bar {
+    height: $toolbar-height;
+    background-color: rgb(142, 173, 231);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 4px 5px gray;
+    top:$toolbar-height;
+  }
+
+  input[type="color"] {
+    -webkit-appearance: none;
+    border: none;
+    background: url('../assets/img/pallete.png');
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    outline: none;
+    cursor: inherit;
+  }
+

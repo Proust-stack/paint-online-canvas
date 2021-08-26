@@ -2,7 +2,7 @@ import { observer } from 'mobx-react-lite';
 import React, { useEffect, useRef, useState } from 'react';
 import canvasState from '../store/canvasState';
 import toolState from '../store/toolState';
-import '../styles/canvas.scss';
+import '../styles/canvas.css';
 import Brush from '../tools/Brush';
 import Rect from '../tools/Rext';
 import  {Modal, Button} from "react-bootstrap";

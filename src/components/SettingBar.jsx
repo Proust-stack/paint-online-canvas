@@ -1,6 +1,6 @@
 import React from 'react';
 import toolState from '../store/toolState';
-import '../styles/toolbar.scss'
+import '../styles/toolbar.css'
 
 const SettingBar = () => {
     return (

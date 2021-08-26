@@ -2,7 +2,7 @@
 import Canvas from './components/Canvas';
 import SettingBar from './components/SettingBar';
 import Toolbar from './components/Toolbar';
-import './styles/app.scss';
+import './styles/app.css';
 import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom'
 
 function App() {

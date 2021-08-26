@@ -1,7 +1,7 @@
 import React from 'react';
 import canvasState from '../store/canvasState';
 import toolState from '../store/toolState';
-import '../styles/toolbar.scss';
+import '../styles/toolbar.css';
 import Brush from '../tools/Brush';
 import Circle from '../tools/Circle';
 import Line from '../tools/Line';
