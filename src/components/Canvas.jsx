@@ -28,7 +28,7 @@ const Canvas = observer(() => {
             ctx.drawImage(img, 0, 0, canvasRef.current.width, canvasRef.current.height)
         }
         })
-    }, [])
+    }, [params.id])
 
     useEffect(() => {
         if (canvasState.username) {
@@ -74,7 +74,7 @@ const Canvas = observer(() => {
     };
     
         }
-    }, [canvasState.username])
+    }, [canvasState.username, params.id])
 
 
     const drawHandler = (msg) => {
