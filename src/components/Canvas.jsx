@@ -74,7 +74,7 @@ const Canvas = observer(() => {
     };
     
         }
-    }, [canvasState.username, params.id])
+    }, [params.id])
 
 
     const drawHandler = (msg) => {
