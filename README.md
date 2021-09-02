@@ -8,6 +8,10 @@ npm run start
 # or
 yarn start
 ```
+```bash
+# or
+
+```
 
 ```bash
 it does not work properly yet cause server on heroku, websokets do not work
