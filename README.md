@@ -4,17 +4,20 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 ```bash
+                            Paint app
+                    painting together on canvas
+
+```
+
+```bash
+frontend: reactJS,
+using canvas, sockets
+backend: NodeJS
+```
+
+```bash
 npm run start
 # or
 yarn start
 ```
-```bash
-# or
 
-```
-
-```bash
-it does not work properly yet cause server on heroku, websokets do not work
-```
-
-[deployed here](https://serene-rosalind-1fd6a0.netlify.app/) 
